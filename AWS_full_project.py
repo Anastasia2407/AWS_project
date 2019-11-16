@@ -170,8 +170,8 @@ def get_services(aws_access_key,aws_secret_key,region_name):
 
 def get_my_services(region_name):
     session = boto3.Session(
-        aws_access_key_id='AKIAI55QD2U75ZLDX6FA',
-        aws_secret_access_key='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',
+        aws_access_key_id='AKIAI55QD2U75Z******',
+        aws_secret_access_key='jRIH6dcASEpk7hLMiPYnDw63J4RAuK**********',
         region_name=region_name)
 
     services = session.get_available_services()
